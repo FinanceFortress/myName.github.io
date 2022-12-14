@@ -20,6 +20,7 @@ const swiper = new Swiper('.swiper', {
    watchOverflow: true,
 
 });
+
 $(function () {
     $('.switch-btn').click(function () {
       $(this).toggleClass('switch-on');
@@ -37,8 +38,6 @@ $(function () {
     });
   });
 
-AOS.init();
- 
 function burgerMenu(selector) {
     let menu = $(selector);
     let button = menu.find('.burger-menu__button');
